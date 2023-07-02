@@ -1,5 +1,6 @@
 ---
 import DropdownMulti from "./DropdownMulti.astro";
+import DropdownMulti_inst from "./DropdownMulti_inst.astro";
 ---
 
 <nav class="bg-sky-950 ">
@@ -38,11 +39,12 @@ import DropdownMulti from "./DropdownMulti.astro";
               <a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">U.N.A.</a>
               
               
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Institucional</a>
+             
+              <DropdownMulti_inst />  
               <DropdownMulti />    
 
 
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Convocatoria</a>
+              <a href="#" class="text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Convocatoria</a>
             </div>
           </div>
         </div>

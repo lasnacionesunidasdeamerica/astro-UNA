@@ -5,7 +5,8 @@ module.exports = {
         require('flowbite/plugin')
     ],
 	theme: {
-		extend: {},
+		extend: {}
+	
 	},
 	plugins: [],
 }

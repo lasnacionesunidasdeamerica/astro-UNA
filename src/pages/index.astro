@@ -5,6 +5,7 @@ import Navegador from '../components/Navegador.astro';
 import DropdownMulti from '../components/DropdownMulti.astro';
 import Portada from '../components/Portada.astro';
 import Video_card from '../components/Video_card.astro';
+import Tarjeta_capitulo from '../components/Tarjeta_capitulo.astro';
 ---
 
 <Layout title="NUA">
@@ -18,12 +19,15 @@ import Video_card from '../components/Video_card.astro';
 </div>
 	
 
-	<video src="../../video/promocional.mp4"  controls style=" background-size: cover; background-image: url('../../public/tapa_video_trailer.jpg'); border:solid; border-color:blue; margin: auto; padding top:50px;" class="relative ml-3"></video>
+	<video src="../../video/promocional.mp4"  controls style=" width:1000px; background-size: cover; background-image: url('../../public/tapa_video_trailer.jpg'); border:solid; border-color:blue; margin: auto; padding top:50px;" class="relative ml-3"></video>
 	<div style="display:flex">
 
 
 </div>
 
+<div>
+<Tarjeta_capitulo />
+</div>
 <img src="../../convocatoria_sam.jpg" style ="margin:auto;">
 
 <div>

@@ -4,19 +4,27 @@ import Footer from '../components/Footer.astro';
 import Navegador from '../components/Navegador.astro';
 import DropdownMulti from '../components/DropdownMulti.astro';
 import Portada from '../components/Portada.astro';
+import Botonera from '../components/Botonera.astro';
 import Video_card from '../components/Video_card.astro';
 import Tarjeta_capitulo from '../components/Tarjeta_capitulo.astro';
 ---
 
 <Layout title="NUA">
-	<main>
+	<main style="background-color:white;">
 
 		<div>
 			<Portada />
 		</div>		
-<div style="padding-bottom:30px;">
-	<Navegador />
+
+<div style="padding-bottom:30px; display:flex;" >
+	<img src="sam2.jpg" class="w-20 m-auto" alt="">
+	<img src="anark.jpg" class="w-2/6 m-auto" alt="">
+	<img src="sam2.jpg" class="w-20 m-auto " alt="">
 </div>
+<div>
+<Botonera />
+</div>
+
 	
 
 	<video src="../../video/promocional.mp4"  controls style=" width:855px; background-size: cover; background-image: url('../../public/tapa_video_trailer.jpg'); border:solid; border-color:blue; margin: auto; padding top:50px;" class="relative ml-3"></video>

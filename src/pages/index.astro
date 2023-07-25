@@ -41,13 +41,53 @@ import Tarjeta_capitulo from '../components/Tarjeta_capitulo.astro';
 	<div style="display:flex">
 
 
+<div style="display: flex;">
+<div >
+	<img style="padding-top:10px; margin-left: 420px;" src="VIDEOS.png" alt="">
+</div>
+<div>	
+		<img style="padding-top:10px; margin-left: 220px;" src="FOTOS.png" alt="">
+</div>
+</div>
+
+</div>
 
 
 <div>
-<Tarjeta_capitulo />
+<Tarjeta_capitulo 
+ImagenPrin = "../../tapa_video_trailer.jpg",
+Imagen2  = "../../carta_cristina_presidenta.jpg",
+Imagen3  = "../../carta_darth_bullrich.jpg",
+Imagen4  = "../../carta_maestrahebe.jpg",
+Imagen5  = "../../carta_lord_kissinger.jpg"
+/>
 
 
 </div>
+
+<div>
+	<Tarjeta_capitulo 
+	ImagenPrin = "../../tapa_video_cap3_cfk.jpg",
+	Imagen2  = "../../carta_obiwan_assange.jpg",
+	Imagen3  = "../../carta_conde_bukele.jpg",
+	Imagen4  = "../../carta_padawan_grabois.jpg",
+	Imagen5  = "../../carta_darth_milei.jpg"
+	/>
+	
+	
+	</div>
+
+	<div>
+		<Tarjeta_capitulo 
+		ImagenPrin = "../../tapa_video_navarro.jpg",
+		Imagen2  = "../../carta_teniente_vier.jpg",
+		Imagen3  = "../../carta_lord_rozencrantz.jpg",
+		Imagen4  = "../../carta_navarro_solo.jpg",
+		Imagen5  = "../../carta_juanita_la_cariniosa.jpg"
+		/>
+		
+		
+		</div>
 
 <div class="mt-60 mr-6 transform -translate-y-1/2 flex flex-col items-center absolute z-10" style="top: 950px; left: 1100px;">
     <!-- Tira de botones izquierda -->

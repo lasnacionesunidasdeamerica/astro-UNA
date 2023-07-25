@@ -1,30 +1,34 @@
 ---
+const  { ImagenPrin } = Astro.props;
+const  { Imagen2 } = Astro.props;
+const  { Imagen3 } = Astro.props;
+const  { Imagen4 } = Astro.props;
+const  { Imagen5 } = Astro.props;
 ---
 
+<div style="margin-left: 295px; padding-top: 55px; display: flex;">
+  <a href="#">
+    <img src={ImagenPrin} style="border-radius:6% ;border: solid 8px blue; width: 370px; height: 230px;" alt="">
+  </a>
 
-<div style="margin-left:250px;padding-top:20px;display:flex;">
-   <a href="#" > <img src="../../tapa_video_trailer.jpg" style="border:solid blue; widht:180px; height:270px;" alt="">
-   </a>
-
-   <div>
-<div>
-   <div style="padding-left:5px; display:flex;" >
-      
-   <a  href="#" class="w-60"> <img src="../../carta_cristina_presidenta.jpg"  alt="">
-   </a>
-   <a style="padding-left:5px;" href="#" class="w-60"> <img src="../../carta_darth_bullrich.jpg"  alt="">
-   </a>
-   </div>
-   <div style="padding-left:5px; padding-top:5px; display:flex;" >
-      
-      <a  href="#" class="w-60"> <img src="../../carta_maestrahebe.jpg" alt="">
-      </a>
-      <a class="w-60" href="#"> <img src="../../carta_lord_kissinger.jpg"  alt="">
-      </a>
+  <div>
+    <div>
+      <div style="padding-left: 5px; padding-top:10px;display: flex;">
+        <a href="#" style=" width:180px;" >
+          <img src={Imagen2} alt="">
+        </a>
+        <a style="padding-left: 5px; width:180px;" href="#">
+          <img src={Imagen3} alt="">
+        </a>
       </div>
+      <div style="padding-left: 5px; padding-top: 10px; display: flex;">
+        <a href="#" style=" width:180px;">
+          <img src={Imagen4} alt="">
+        </a>
+        <a  href="#" style=" width:180px;">
+          <img src={Imagen5} alt="">
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
-
-
-</div>
-
-

@@ -1,17 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Footer from '../components/Footer.astro';
-import Navegador from '../components/Navegador.astro';
+
 import DropdownMulti from '../components/DropdownMulti.astro';
 import Portada from '../components/Portada.astro';
 import Botonera from '../components/Botonera.astro';
 import Video_card from '../components/Video_card.astro';
 import Tarjeta_capitulo from '../components/Tarjeta_capitulo.astro';
 ---
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"/></head>
 <Layout title="NUA">
-	<main style="background-color:white;">
-
+	<main style="background-color: white;">
+<div>
 		<div>
 			<Portada />
 		</div>		
@@ -93,6 +96,20 @@ Sourc = "/Cap_1"
 		
 		</div>
 
+		<div class="pt-20 pb-20">
+			<iframe style="width: 750px; height:450px; border:solid; border-color:blue; margin: auto; padding top:50px;" src="https://www.youtube.com/embed/BIltaGud2vY"  allowfullscreen></iframe>
+
+		</div>
+		<div class="py-10">
+			<iframe style="width: 750px; height:450px; border:solid; border-color:blue; margin: auto; padding top:50px;" src="https://www.youtube.com/embed/3Vo1drRaKwQ"  allowfullscreen></iframe>
+
+		</div>
+		<div class="py-10">
+			<iframe style="width: 750px; height:450px; border:solid; border-color:blue; margin: auto; padding top:50px;" src="https://www.youtube.com/embed/ZCFI5tDm9oQ"  allowfullscreen></iframe>
+
+		</div>
+
+
 <div class="mt-60 mr-6 transform -translate-y-1/2 flex flex-col items-center absolute z-10" style="top: 850px; left: 1100px;">
     <!-- Tira de botones izquierda -->
     <a href="https://wa.me/05491166838494" target="_blank" class="py-2 px-4 my-2 " ><img style="width: 480px;"  src="../../Convocatoria2.jpg" alt=""/></a>
@@ -115,4 +132,7 @@ Sourc = "/Cap_1"
 	<Footer />	
 </div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
-		</main>
+		
+	</div>
+</main>
+		</html>
